@@ -62,14 +62,13 @@ body {
         position:relative;
 	top:10px;
 	font-size:22px;
-	text-align:center;
-	
+	text-align:center;	
 	padding:10px 0;
         color: #fff;
        /* background: #1a1a1a;*/
         border-top:1px solid #aaa;
 	border-bottom:2px solid #aaa;
-     background: url(../images/head_bg.jpg);
+        background: url(../images/head_bg.jpg);
   
 }
 
@@ -80,7 +79,26 @@ body {
     font-style: italic;
     text-align: justify;
     /*background: #F5F5F5;*/
-      
+    height: 150px;
+
+}
+
+.introduction1{
+    float: left;
+    font-style: italic;
+    text-align: justify;
+    /*background: #F5F5F5;*/
+    border-right: 1px solid #aaa;
+    width: 450px;
+    padding-right:  10px;
+    
+}
+
+.introduction2{float:right;
+font-style: italic;
+    text-align: justify;
+    /*background: #F5F5F5;*/
+    width: 290px;
 
 }
 
@@ -145,9 +163,13 @@ p{
 
 
 
+.auspicia {
+      position:relative;
+     top:10px;
+text-align: center;
+}
 
-
-
+.auspicia img{margin:5px;}
 
 
 
