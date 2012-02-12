@@ -3,145 +3,93 @@
 <html>
 <head>
   <meta charset='UTF-8'/>
-  <title>Open Data-Tilemill</title>
+  <title>{% if page.url == '/index.html' %}{{page.title}}{% else %}{{page.title}}{% endif %}</title>
   <link rel='stylesheet' href='{{base}}/site.css' type='text/css'/>
   <!--[if IE]><link rel='stylesheet' href='{{base}}/site-ie.css' type='text/css'/><![endif]-->
   <link rel='shortcut icon' href='{{base}}/images/favicon.ico' type='image/x-icon' />
   <link href='http://fonts.googleapis.com/css?family=Jockey+One' rel='stylesheet' type='text/css'>
+  <script type='text/javascript'>
+    var site = {
+      github_language: '{{site.github_language}}',
+      github_login: '{{site.github_login}}',
+      github_repo: '{{site.github_repo}}',
+      hashtag: '{{site.hashtag}}'
+    };
+  </script>
   <script src='{{base}}/js/jquery-1.6.4.min.js' type='text/javascript'></script>
   <script src='{{base}}/js/underscore.js' type='text/javascript'></script>
   <script src='{{base}}/js/backbone.js' type='text/javascript'></script>
   <script src='{{base}}/js/site.js' type='text/javascript'></script>
-
-  <script src='{{base}}/js/modestmaps.min.js' type='text/javascript'></script>
-    <script src='{{base}}/js/wax.mm.js' type='text/javascript'></script>
-        <script src='{{base}}/js/app.js' type='text/javascript'></script>
-    <link href='{{base}}/js/controls.css' rel='stylesheet' type='text/css' />
-
-
-
-
-
-
-
-
 </head>
 <body>
+        <div class="header_imagen">
 
-    <div class="header_imagen">
-         <div id='map'></div>
 
 
     </div>
+
   <div class='limiter'>
-      <div class="centrar"> Martes 21 -Miercoles 22 de Febrero<br> Open Data Geo Meetup Lima</div>
-    <div id="title"> <h2> Realizar mejores aplicaciones con Datos Abiertos y Tilemill Gratis</h2></div>
+
+<div class="centrar"> Opendata.pe<br> Open Meetup Lima</div>
+
+    <div id="title"> <h2>Contribuyendo a Datos Abiertos en El Peru</h2></div>
+
+        <div class="participantes">
+            <div class="title"> Dirigido a:</div>
+        <p><strong>Funcionarios del Gobierno,</strong> para que tengan un mejor panorama de lo que es  Datos Abiertos, y de que forma contribuye este,en formar un buen gobierno.
+</p>
+<p><strong>Ciudadanos en General,</strong> que quieran adquirir un rol activo, en el proceso de apertura de los gobiernos en la era de la información y transparencia.
+</p>
+<p><strong>Profesionales de la información,</strong> con ganas de aplicar conceptos, herramientas y técnicas para desarrollar aplicaciones con Datos Abiertos.</p>
+</div>
+
     <div class="introduction">
 
-<div class="introduction1">Participa y aprenda a desarrollar mapas personalizadas y a medida con Tilemill,
-         con el cual aprenderá paso a paso desde cero la manera de diseñar mapas con Tilemill
-         sin ser un especialista en cartografía, El cual tiene por objetivo hacer uso de
-         datos abiertos como principal fuente de datos para desarrollar mejores aplicaciones
-         y muchas otras alternativas que crea conveniente desarrollar con Tilemill
-         para el mejor desarrollo de su ciudad, pais etc.</div>
+<div class="introduction1">Participa y aprenda nuevas experiencias y tendencias sobre datos abiertos en el Perú y en el mundo, en el cual usted sera un protagonista mas en esta nueva era de un Gobierno Abierto en el Perú, junto a muchas personas dedicadas a desarrollar nuevas formas de de solución a ciertos problemas que la atraviesa en la actualidad, se participe de los eventos, talleres,Charlas ,espacios abiertos, y muchos mas asistiendo,para un beneficio suyo y sobre todo para el desarrollo del  Perú.
 
-    <div class="introduction2">
- <strong>LUGAR</strong><br>
+</div>
+<div class="introduction2">
 <strong>Lugar: </strong>Escuelab<br>
 <strong>Dirección:</strong> Calle Belén 1042 - Piso 5 - Lima 1 - Perú<br>
 <strong>Referencia: </strong>Media cuadra de la Plaza San Martín<br>
-<strong>Fecha y Hora: </strong>13 de Agosto, 9am - 6pm<br>
 <strong>Ingreso: </strong>Libre
 
    </div>
 </div>
-    
-
     <aside>
-        <img src="../images/ct3.png">
+
+       <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like-box href="http://www.opendata.pe" width="210" show_faces="true" border_color="" stream="false" header="false"></fb:like-box>
 
 
 
-
-
-        <div class='buttons'></div>
-
-   
-
-  
-        <h3>Comentarios</h3>
-
-   <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like-box href="http://www.facebook.com/pages/Datos_Abiertos_Tilemill/361126537252727" width="210" show_faces="true" border_color="" stream="false" header="false"></fb:like-box> </aside>
+      <!--<div class='follower-project clearfix'>
+        <h2>A member's {{site.github_language}} project</h2>
+      </div>
+      <div class='tweets clearfix'>
+        <h2>Tweets that mention {{site.hashtag}}</h2>
+      </div>
+      <div class='editing'><p>This website is <a href='http://github.com/{{site.github_login}}/{{site.github_repo}}'>open source</a> and you can help us edit it. To submit a change, <a href='http://help.github.com/fork-a-repo/'>fork this repo</a>, commit your changes, and send us a <a href='http://help.github.com/pull-requests/'>pull request</a>.</p></div>
     
- </aside>
+    -->
+    
+    </aside>
+
+
     <div id='main'>
-  <div id='content'>
-     
-          <h2>Aprenda a diseñar mapas en Tilemill de 5pm-7pm </h2>
+      <!--<header>
+        <h1><a class='logo' href="/">node.dc</a></h1>
+      </header>
+        -->
+      <div id='content'>
+        {{ content }}
 
-          <h3> 1. Fundamentos teóricos e Instalación de Tilemill </h3>
-          <div class="assigned">Ian Ward 5:00pm-5:30pm</div>
-          <p>Se Realizara introducción a Tilemill, como un programa de software libre para la elaboración de Cartografía digital, con la cual se pueden diseñar mapas, personalizadas y a medida de cada uno.</p>
-  
-          <ul>Los puntos a tratar:
-              <li> <a href="http://mapbox.com/tilemill/" target='_blank'>Tilemill</a></li>
-                <li><a href="http://mapnik.org/" target='_blank'>Mapnik</a></li>
-                <li><a href="http://wiki.openstreetmap.org/wiki/Carto" target='_blank'>Carto</a></li>
-                <li>Node.js</li>
-                <li><a href="http://mapbox.com/tour/hosting/" target='_blank'>Mapbox Hoting</a></li>
-                <li>Instalación de Tilemill</li>
-          </ul>
-  
-          <h3>2. Fuentes y preparación de datos para la utilización con Tilemill</h3>
-          <div class="assigned">Ruben Lopez de 5:30pm 6:30pm</div>
-          <p>En esta Sección se mencionaran  las principales fuentes de obtención de datos Geográficos y como es el procesamiento de estos datos para llegar a realizar mapas personalizados en Tilemill
-</p>
-
-        <ul>Los puntos a tratar:
-            <li>Archivos .DWG(archivos autocad) </li>
-            <li>Fuente<a href="http://www.openstreetmap.org/" target='_blank'> OSM</a></li>
-                <li>Carga de datos OSM a base de datos Postgis </li>
-                <li>Unión de datos geográficos y datos que usted crea conveniente mostrar geográficamente </li>
-
-          </ul>
-
-          <h3> 3. Diseño de Mapas con Tilemill.</h3>
-          <div class="assigned">(Ian o  Ruben) de 6:30pm-7:00pm</div>
-          <p>En este Sección diseñaremos mapas personalizado con Tilemill, mediante código básico css de lado del servidor, en los cuales aprenderá un panorama de como desarrollar sus propios mapas.
-</p>
-
-          <ul>Los puntos a tratar:
-                <li>Importación de archivos shp a Tilemill.</li>
-                <li>Importacion de datos de base de datos Postgis.</li>
-                <li>Diseño de estilos en Tilemill.</li>
-                <li>Exportacion  de mapas para la web con Tilemill.</li>
-                <li>Subiendo mapas a Mapbox Hosting gratuitamente.</li>
-          </ul>
+      </div>
 
 
-<h2>Diseñe  su propios mapas con Tilemill de 7pm-9pm</h2><br>
-<p>Tendrá un tiempo de 2 hora para desarrollar sus propios mapas personalizados  con  Tilemill, en el cual sera asesorado  por Ian ward y Ruben Lopez, quienes podrán aclara sus dudas en la preparación de datos geográficos para el uso en Tilemill y en el  Diseño de mapas en Tilemill.
-</p>
 
-    
-  </div>
     </div>
-
   </div>
-
-
-
-
-<div class="auspicia">
-    <img src="../images/logo-escuelab.png">
-    <img src="../images/logo-developmentseed.png">
-    <img src="../images/logo_mapbox.png">
-
-</div>
-
-
-
-
-
 </body>
 </html>
+
+

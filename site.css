@@ -33,7 +33,8 @@ body {
 
 
      text-align: center;
-     height: 450px;
+     height: 100px;
+     /*background: #000;*/
 
      
     }
@@ -50,10 +51,10 @@ body {
 .centrar{
           position: absolute;
       z-index: 99;
-      top: 390px;
-      font-size: 32px;
-      line-height: 30px;
-       color: #fff;
+      top: 20px;
+      font-size: 45px;
+      line-height: 45px;
+       color: #000;
         left: 600px;
         text-align: center;
         font-weight: bold;
@@ -79,7 +80,7 @@ body {
     font-style: italic;
     text-align: justify;
     /*background: #F5F5F5;*/
-    height: 150px;
+    height: 130px;
 
 }
 
@@ -89,57 +90,84 @@ body {
     text-align: justify;
     /*background: #F5F5F5;*/
     border-right: 1px solid #aaa;
-    width: 450px;
+    width:499px;
     padding-right:  10px;
     
 }
 
 .introduction2{float:right;
 font-style: italic;
-    text-align: justify;
+text-align: justify;
+padding-left: 10px;
     /*background: #F5F5F5;*/
-    width: 290px;
+    width: 280px;
 
 }
 
-#content h2{
-     font-size: 18px;
+
+
+.participantes{
+
+    position:relative;
+    top:10px;
+    height: 100px;
+    background: #eee;
+}
+.participantes .title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.participantes p{
+    width: 255px;
+    padding: 0 5px;
+    border-right: 1px solid #aaa;
+    float: left;
+}
+
+
+.participantes p:last-of-type{border-right: 1px ;}
+
+
+#content h1{
+     font-size: 20px;
      position:relative;
      top:10px;
      margin-top: 10px;
      padding-left: 10px;
-     /*padding:3px 0;*/
-     color: #4488BD;
+    height: 30px;
+    line-height: 30px;
+    color: #4488BD;
      border-bottom:1px solid #CCC;
-        background: url(../images/header_bg.jpg) ; 
+    background: url(../images/header_bg.jpg) ; 
 }
+
+
+#content h2{
+     font-size: 17px;
+     position:relative;
+     border-bottom:1px solid #ddd;
+}
+
+
+
 
 #content h3{
-     font-size: 15px;
+     font-size: 12px;
      position:relative;
-     top:10px;
-     margin-top: 10px;
-     padding:3px 0;
      border-bottom:1px solid #CCC;
 }
 
-.assigned{
-    position:relative;
-     top:7px;
-    color: #4488BD;
-    /*background:#F8F8F8;*/
-    /*border:1px solid #aaa;*/
-    /*border-bottom:1px solid #aaa;*/
-    font-size: 12px;
-    height: 14px;
-    padding: 2px  20px ;
-    width: 220px;
-    line-height: 15px;
-
+#content p{
+    position: relative;
+    /*top: -12px;*/
+   text-align: justify;
 }
+
 ul{
      position:relative;
-     top:5px;
+     /*top:-20px;*/
 }
 
 
@@ -149,19 +177,6 @@ ul li{
     background: url(../images/icon.png) no-repeat ;
 
 }
-p{
-     position:relative;
-     top:5px;
-     text-align: justify;
-}
-
-
-
-
-
-
-
-
 
 .auspicia {
       position:relative;
@@ -173,16 +188,22 @@ text-align: center;
 
 
 
+/*.date{
+    position: relative;
+    top: -6px;
 
+}*/
 
+/*****************************************event.html****************************/
 
-
-
-
-
-
-
-
+.detail{
+    position: relative;
+    top: -6px;
+    margin-bottom: 10px;
+}
+.organizer{
+    float: right;
+}
 
 
 
@@ -196,7 +217,7 @@ a {
   }
 
 .limiter {
-  width:760px;
+  width:800px;
   margin:0px auto;
   }
 
@@ -227,7 +248,7 @@ header .logo {
   }
 
 #content {
-  padding:0px 20px 20px;
+  padding: 0 20px 0 0;
   }
 
 .followers,
