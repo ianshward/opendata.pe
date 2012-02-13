@@ -1,229 +1,12 @@
 ---
 ---
 {% include css/reset.css %}
-html{background: #eee;
-
-}
 
 body {
-
-   
-   /* font:normal 14px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-   /*font: 13px/14px Rokkitt,serif;*/
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-      width: 960px;
-      height: auto;
-      background: #fff;
-     -moz-border-radius:    3px;
-      -webkit-border-radius: 3px;
-      border-radius:         3px;
-      color: #000;
-     -moz-box-shadow:    0px 1px 10px rgba(0,0,0,0.5);
-      -webkit-box-shadow: 0px 1px 10px rgba(0,0,0,0.5);
-      box-shadow:         0px 1px 10px rgba(0,0,0,0.5);
+  background:#fff url(assets/background.png);
+  color:#444;
+  font:normal 14px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
-
-
- 
-
-  .header_imagen{
-
-
-
-     text-align: center;
-     height: 100px;
-     /*background: #000;*/
-
-     
-    }
-    #intro-map{text-align: center;}
-
-
-.header_imagen img{
-
-     margin-top: 10px;
-     text-align: center;
-
-    }
-
-.centrar{
-          position: absolute;
-      z-index: 99;
-      top: 20px;
-      font-size: 45px;
-      line-height: 45px;
-       color: #000;
-        left: 600px;
-        text-align: center;
-        font-weight: bold;
-}
-#title h2{
-        position:relative;
-	top:10px;
-	font-size:22px;
-	text-align:center;	
-	padding:10px 0;
-        color: #fff;
-       /* background: #1a1a1a;*/
-        border-top:1px solid #aaa;
-	border-bottom:2px solid #aaa;
-        background: url(../images/head_bg.jpg);
-  
-}
-
-.introduction{
-    position:relative;
-    top:15px;
-    /*margin-top: 5px;*/
-    font-style: italic;
-    text-align: justify;
-    /*background: #F5F5F5;*/
-    height: 130px;
-
-}
-
-.introduction1{
-    float: left;
-    font-style: italic;
-    text-align: justify;
-    /*background: #F5F5F5;*/
-    border-right: 1px solid #aaa;
-    width:505px;
-    padding-right:  10px;
-    
-}
-
-.introduction2{float:right;
-font-style: italic;
-text-align: justify;
-padding-left: 10px;
-    /*background: #F5F5F5;*/
-    width: 274px;
-
-}
-
-
-
-.participantes{
-
-    position:relative;
-    top:10px;
-    height: 100px;
-    background: #eee;
-}
-.participantes .title{
-    text-align: center;
-    font-weight: bold;
-    font-size: 14px;
-}
-
-.participantes p{
-    width: 255px;
-    padding: 0 5px;
-    border-right: 1px solid #aaa;
-    float: left;
-}
-
-
-.participantes p:last-of-type{border-right: 1px ;}
-
-
-#content h1{
-     font-size: 20px;
-     position:relative;
-     top:10px;
-     margin-top: 10px;
-     padding-left: 10px;
-    height: 30px;
-    line-height: 30px;
-    color: #4488BD;
-     border-bottom:1px solid #CCC;
-    background: url(../images/header_bg.jpg) ; 
-}
-
-
-#content h2{
-     font-size: 17px;
-     position:relative;
-     border-bottom:1px solid #ddd;
-}
-
-
-
-
-#content h3{
-     font-size: 12px;
-     position:relative;
-     border-bottom:1px solid #CCC;
-}
-
-#content p{
-    position: relative;
-    /*top: -12px;*/
-   text-align: justify;
-}
-
-ul{
-     position:relative;
-     /*top:-20px;*/
-}
-
-
-ul li{
-    padding-left: 25px;
-    text-align: justify;
-    background: url(../images/icon.png) no-repeat ;
-
-}
-
-.sponsors{
-      position:relative;
-     top:10px;
-text-align: center;
-
-}
-
-.sponsors img{margin:5px;
-             margin-bottom: 15px;}
-
-
-#like_box{
- float: left;
-}
-
-/*****************************************event.html****************************/
-
-
-.detail{
-    position: relative;
-    top: -6px;
-    margin-bottom: 10px;
-    height: 30px;
-}
-
-.date{
-    float: left;
-}
-
-.organizer_text{
-    float: left;
-    margin-left:55px;
-
-
-}
-
-
-.organizer_logo{
-    float: right;
-}
-
-
-
-
-
-
 
 a {
   text-decoration:none;
@@ -231,31 +14,28 @@ a {
   }
 
 .limiter {
-  width:800px;
+  width:760px;
   margin:0px auto;
   }
 
 aside {
   position:relative;
   float:right;
-  top: 10px;
-  width:285px;
-  margin-top:10px;
+  width:210px;
+  margin-top:118px;
   }
-
-
-  /*
 
 header .logo {
-  height:175px;
-  background:url(assets/logo.png) no-repeat 50% 50%;
+  height:80px;
+ /* background:url(assets/logo.png) no-repeat 50% 50%;*/
   display:block;
-  overflow:hidden;
-  text-indent:-9999px;
+  /*overflow:hidden;*/
+  /*text-indent:-9999px;*/
+  color: #000;
+  text-align: right;
+  padding-top: 50px;
+  font-size: 90px;
   }
-
-  */
-
 
 #main,
 header .logo {
@@ -263,8 +43,13 @@ header .logo {
   }
 
 #content {
-  padding: 0 20px 0 0;
+  padding:0px 20px 20px;
   }
+
+
+  #content p{
+      text-align: justify;
+}
 
 .followers,
 .follower-project,
@@ -433,3 +218,20 @@ a.tweet {
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* End hide from IE-mac */
+#content h2{
+    border-bottom:  1px  solid #ccc;
+}
+
+
+#content .details{
+    height: 20px;
+    float: left;
+    width: 500px;
+}
+
+#content .events_logo{
+  position: relative;
+  right: -343px;
+    top: -40px;
+}
+

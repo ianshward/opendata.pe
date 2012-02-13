@@ -1,13 +1,15 @@
-<h1>{{item.title}}</h1>
-<div class="detail">
+<h2>{{item.title}}</h2>
+<div class="details">
 <small class='date'>
-{{item.date | date: "%d %b  %Y"}}
+{{item.date | date:"%d %b  %Y"}}
 </small>
-    {% if item.rsvp_url %}<div class="organizer_text">Organizado por:<a href='{{item.rsvp_url}}'>{{item.organizer}}</a></div><div class="organizer_logo"><img src="{{item.image}}"><!--<span>{{item.presenters}}</span>-->
+{% if item.rsvp_url %}
 
-</div>
+<span>Direccion:</span>
+<!--<a href='{{item.rsvp_url}}'>RSVP</a>-->
+
+<div class="events_logo"><a href='{{item.rsvp_url}}'><img src="{{item.image}}"></a></div>
 {% endif %}
-
-
 </div>
+
 {{item.content}}
