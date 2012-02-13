@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Entrenamiento en Tilemill
-rsvp_url: http://developmentseed.org/
+rsvp_url: http://mapbox.com/
 organizer: Development Seed
 presenters:
     - Ian Ward

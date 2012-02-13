@@ -218,20 +218,21 @@ a.tweet {
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* End hide from IE-mac */
-#content h2{
-    border-bottom:  1px  solid #ccc;
-}
+
 
 
 #content .details{
-    height: 20px;
+    height: 50px;
     float: left;
     width: 500px;
 }
 
+#content .date{
+
+}
+
 #content .events_logo{
-  position: relative;
-  right: -343px;
-    top: -40px;
+ margin-top: 15px;
+ width: 150px;
 }
 
