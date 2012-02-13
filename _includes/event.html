@@ -3,9 +3,26 @@
 <small class='date'>
 {{item.date | date:"%d %b  %Y"}}
 </small>
-{% if item.rsvp_url %}
-<!--<a href='{{item.rsvp_url}}'>RSVP</a>-->
+{{item.content}}
+
+<div class="events_logo">
+{% if item.image1 == "" %}
+{% else %}
+<a href='{{item.url1}}'><img src="{{item.image1}}"></a>
+{% endif %}
+{% if item.image2 == "" %}
+{% else %}
+<a href='{{item.url2}}'><img src="{{item.image2}}"></a>
 {% endif %}
 
-{{item.content}}
-<div class="events_logo"><a href='{{item.rsvp_url}}'><img src="{{item.image}}"></a></div>
+{% if item.image3 == "" %}
+{% else %}
+<a href='{{item.url3}}'><img src="{{item.image3}}"></a>
+{% endif %}
+
+{% if item.image4 == "" %}
+{% else %}
+<a href='{{item.url4}}'><img src="{{item.image4}}"></a>
+{% endif %}
+
+</div>

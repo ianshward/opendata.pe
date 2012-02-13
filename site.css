@@ -233,6 +233,16 @@ a.tweet {
 
 #content .events_logo{
  margin-top: 15px;
- width: 150px;
+ width: 530px;
+ height: 70px;
 }
 
+.events_logo img{
+float: left;
+margin-left: 5px;
+}
+
+.events_logo img:first{
+float: left;
+margin-left: 0px;
+}

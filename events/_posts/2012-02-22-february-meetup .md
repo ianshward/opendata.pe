@@ -1,12 +1,9 @@
 ---
 layout: event
 title: Entrenamiento en Tilemill
-rsvp_url: http://mapbox.com/
-organizer: Development Seed
-presenters:
-    - Ian Ward
-    - Ruben Lopez
-image: /img_events/mapbox.png
+url1: http://mapbox.com/
+image1: /img_events/mapbox.png
+
 ---
 
 Aprenda a diseñar mapas en Tilemill de 5pm-7pm
