@@ -90,7 +90,7 @@ body {
     text-align: justify;
     /*background: #F5F5F5;*/
     border-right: 1px solid #aaa;
-    width:499px;
+    width:505px;
     padding-right:  10px;
     
 }
@@ -100,7 +100,7 @@ font-style: italic;
 text-align: justify;
 padding-left: 10px;
     /*background: #F5F5F5;*/
-    width: 280px;
+    width: 274px;
 
 }
 
@@ -178,30 +178,44 @@ ul li{
 
 }
 
-.auspicia {
+.sponsors{
       position:relative;
      top:10px;
 text-align: center;
+
 }
 
-.auspicia img{margin:5px;}
+.sponsors img{margin:5px;
+             margin-bottom: 15px;}
 
 
-
-/*.date{
-    position: relative;
-    top: -6px;
-
-}*/
+#like_box{
+ float: left;
+}
 
 /*****************************************event.html****************************/
+
 
 .detail{
     position: relative;
     top: -6px;
     margin-bottom: 10px;
+    height: 30px;
 }
-.organizer{
+
+.date{
+    float: left;
+}
+
+.organizer_text{
+    float: left;
+    margin-left:55px;
+
+
+}
+
+
+.organizer_logo{
     float: right;
 }
 
@@ -224,7 +238,8 @@ a {
 aside {
   position:relative;
   float:right;
-  width:210px;
+  top: 10px;
+  width:285px;
   margin-top:10px;
   }
 

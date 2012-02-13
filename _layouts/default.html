@@ -58,28 +58,21 @@
 </div>
     <aside>
 
-       <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like-box href="http://www.opendata.pe" width="210" show_faces="true" border_color="" stream="false" header="false"></fb:like-box>
 
-
-
-      <!--<div class='follower-project clearfix'>
-        <h2>A member's {{site.github_language}} project</h2>
-      </div>
-      <div class='tweets clearfix'>
-        <h2>Tweets that mention {{site.hashtag}}</h2>
-      </div>
-      <div class='editing'><p>This website is <a href='http://github.com/{{site.github_login}}/{{site.github_repo}}'>open source</a> and you can help us edit it. To submit a change, <a href='http://help.github.com/fork-a-repo/'>fork this repo</a>, commit your changes, and send us a <a href='http://help.github.com/pull-requests/'>pull request</a>.</p></div>
-    
-    -->
-    
+        <div class="like_box">
+        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+ <div class="fb-like-box" data-href="http://www.facebook.com/pages/Open-Data-Per%C3%BA/132760760151826" data-width="292" data-height="400" data-show-faces="true" data-stream="false" data-header="true"></div>
+</div>
     </aside>
-
-
     <div id='main'>
-      <!--<header>
-        <h1><a class='logo' href="/">node.dc</a></h1>
-      </header>
-        -->
+
       <div id='content'>
         {{ content }}
 
@@ -89,6 +82,22 @@
 
     </div>
   </div>
+
+
+<!--
+    <div class="sponsors">
+        <img src="../images/logo-escuelab.png">
+        <img src="../images/logo-softwinperu.png">
+        <img src="../images/logo-socialmediagroup.png">
+        <img src="../images/logo-developmentseed.png">
+       
+
+    </div>
+-->
+
+
+
+
 </body>
 </html>
 

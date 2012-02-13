@@ -6,7 +6,7 @@ organizer: Development Seed
 presenters:
     - Ian Ward
     - Ruben lopez
-
+image: /img_events/mapbox.png
 ---
 
 ##Aprenda a diseñar mapas en Tilemill de 5pm-7pm
