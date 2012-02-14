@@ -17,7 +17,7 @@ Comparta ideas y aprende sobre temas de geografia electronica y datos abiertos d
 - OSM Peru - Omar Vega y Miguel Vera<br>
 - Open Space - Todos!<br>
 
-*Hora: 7pm*
+*Cuando: Feb 21 2012, 7pm*
 
 *Lugar: Escuelab*
 
