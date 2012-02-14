@@ -231,6 +231,13 @@ a.tweet {
 font-style: italic;
 }
 
+#content img{
+    float: left;
+margin-left: 5px;
+}
+
+
+
 #content .events_logo{
  margin-top: 15px;
  width: 530px;

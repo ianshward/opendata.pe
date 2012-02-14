@@ -21,6 +21,6 @@ con enfoque hacia el Gobierno Abierto.en el que se presentaran aplicaciones gene
 Dirección: Calle Belén 1042 - Piso 5 - Lima 1 - Perú <br>
 Referencia: Media cuadra de la Plaza San Martín  
 
-   **Ingreso: Libre**
+   **Ingreso Libre**
 
-
+![query](/img_events/geomeetup_lima.jpg)

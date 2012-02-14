@@ -13,11 +13,11 @@ Se Realizara introducción a Tilemill, como un programa de
 software libre para la elaboración de Cartografía digital,
 con la cual se pueden diseñar mapas, personalizadas y a medida de cada uno.<br>
     Los puntos a tratar:
-* Tilemill
-* Mapnik
-* Carto
-* Node.js
-* Mapbox Hoting
+* [Tilemill](http://mapbox.com/tilemill/).
+* [Mapnik](http://mapnik.org/).
+* [Carto](http://wiki.openstreetmap.org/wiki/Carto)
+* [Node.js](http://nodejs.org/)
+* [Mapbox Hoting](http://mapbox.com/)
 * Instalación de Tilemill
 
 Fuentes y preparación de datos para la utilización con Tilemill
@@ -25,7 +25,7 @@ Fuentes y preparación de datos para la utilización con Tilemill
 En esta Sección se mencionaran  las principales fuentes de obtención de datos Geográficos y como es el procesamiento de estos datos para llegar a realizar mapas personalizados en Tilemill.<br>
    Los puntos a tratar:
 * Archivos .DWG(archivos autocad).
-* Fuente OSM.
+* Fuente [OSM](http://www.openstreetmap.org/).
 * Carga de datos OSM a base de datos Postgis.
 * Unión de datos geográficos y datos que usted crea conveniente mostrar geográficamente.
 
@@ -53,3 +53,5 @@ Dirección: Calle Belén 1042 - Piso 5 - Lima 1 - Perú <br>
 Referencia: Media cuadra de la Plaza San Martín
 
 **Ingreso Libre**
+
+[![query](/img_events/mapbox.png)](http://mapbox.com/)
