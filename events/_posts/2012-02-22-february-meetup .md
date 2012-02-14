@@ -8,7 +8,7 @@ url_logo:
 ---
 Aprenda a diseñar mapas hermosas y poderosas en Tilemill por uso en el Internet.  [TileMill](http://mapbox.com/tilemill) es una herramienta de software libre para el Desktop (Windows/Mac/Ubuntu) para el diseño de mapas geograficas para uso en el Internet.  TileMill es una herramienta multidisciplinario, de interes a estudiantes, profesores, profesionales en el sector publico y privado, periodistas, investigadores, y mas.  Es facil aprender hacer mapas muy completos y poderosos.
 
-**Inscribete!** http://ds.io/ygsFSM
+**Inscribete!** [Instribete aqui](http://ds.io/ygsFSM)
 
 *Cuando: Feb 22, 5pm a 11pm*
 
