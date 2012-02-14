@@ -26,15 +26,19 @@ aside {
   }
 
 header .logo {
-  height:80px;
+  height:70px;
  /* background:url(assets/logo.png) no-repeat 50% 50%;*/
   display:block;
   /*overflow:hidden;*/
   /*text-indent:-9999px;*/
   color: #000;
-  text-align: right;
+  text-align: left;
   padding-top: 50px;
-  font-size: 90px;
+  font-size: 80px;
+  font-family: 'Jockey One','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+  
+
   }
 
 #main,
