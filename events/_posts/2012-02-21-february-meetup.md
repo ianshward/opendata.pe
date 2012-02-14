@@ -17,9 +17,9 @@ Comparta ideas y aprende sobre temas de geografia electronica y datos abiertos d
 - OSM Peru - Omar Vega y Miguel Vera<br>
 - Open Space - Todos!<br>
 
-*Lugar: Escuelab*
-
 *Hora: 7pm*
+
+*Lugar: Escuelab*
 
 Dirección: Calle Belén 1042 - Piso 5 - Lima 1 - Perú <br>
 Referencia: Media cuadra de la Plaza San Martín  
