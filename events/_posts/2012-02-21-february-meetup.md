@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Geo Mettup Lima
+title: Geo Meetup Lima
 image:
 - /img_events/geomeetup_lima 2.jpg
 url_logo:

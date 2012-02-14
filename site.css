@@ -57,8 +57,9 @@ header .logo {
 
 .followers,
 .follower-project,
-.tweets,
 .editing { margin-bottom:10px; }
+
+.tweets { margin: 20px 0 }
 
 .prose h1,
 .prose h2 {
