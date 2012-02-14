@@ -14,9 +14,10 @@ Aprenda a diseñar mapas hermosas y poderosas en Tilemill por uso en el Internet
 
 Dirección: Calle Belén 1042 - Piso 5 - Lima 1 - Perú
 Referencia: Media cuadra de la Plaza San Martín
+
 **Ingreso Libre**
 
-**Topicos**
+**Topicos a tratar**
 
 *Instalación de Tilemill - 5pm a 7pm*
 
