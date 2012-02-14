@@ -10,14 +10,16 @@ con enfoque hacia el Gobierno Abierto.en el que se presentaran aplicaciones gene
 
 *Presentaciones:*
 
--Edgar Marca :Scraping para Datos<br>
--Juan Camilo :Retrospectivo sobre DAL / Water Hackathon<br>
--Ruben Lopez :Datos Abiertos en la Municipalidad de Huamanga<br>
--Ian Ward :Advances con TileMill y OpenStreetMap<br>
--OSM Peru (por confirmar)<br>
--Open Space    <br>
+-Scraping para Datos - Edgar Marca<br>
+-Retrospectivo sobre DAL / Water Hackathon - Juan Camilo<br>
+-La Cuidadora, georeferenciación colaborativa de conflictos socioambientales - Johnattan Rupire
+-Datos Abiertos en la Municipalidad de Huamanga - Ruben Lopez<br>
+-Advances con TileMill y OpenStreetMap - Ian Ward<br>
+-OSM Peru - Omar Vega y Miguel Vera<br>
+-Open Space - Todos!<br>
 
-*Lugar: Escuelab*  <br>
+*Lugar: Escuelab*
+
 Dirección: Calle Belén 1042 - Piso 5 - Lima 1 - Perú <br>
 Referencia: Media cuadra de la Plaza San Martín  
 
