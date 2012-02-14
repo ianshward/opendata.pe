@@ -6,33 +6,10 @@
 {{item.content}}
 
 <div class="events_logo">
-{% if item.image1 == "" %}
-{% else %}
-<a href='{{item.url1}}'><img src="{{item.image1}}"></a>
-{% endif %}
-{% if item.image2 == "" %}
-{% else %}
-<a href='{{item.url2}}'><img src="{{item.image2}}"></a>
-{% endif %}
 
-{% if item.image3 == "" %}
-{% else %}
-<a href='{{item.url3}}'><img src="{{item.image3}}"></a>
-{% endif %}
 
-{% if item.image4 == "" %}
-{% else %}
-<a href='{{item.url4}}'><img src="{{item.image4}}"></a>
-{% endif %}
 
-{% if item.image5 == "" %}
-{% else %}
-<a href='{{item.url5}}'><img src="{{item.image5}}"></a>
-{% endif %}
-
-{% if item.image6 == "" %}
-{% else %}
-<a href='{{item.url6}}'><img src="{{item.image6}}"></a>
-{% endif %}
-
+ {% for logos in item.image %}
+<img src="{{logos}}">
+{% endfor %}
 </div>

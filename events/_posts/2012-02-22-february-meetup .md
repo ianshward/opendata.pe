@@ -1,11 +1,11 @@
 ---
 layout: event
 title: Entrenamiento en Tilemill
-url1: http://mapbox.com/
-image1: /img_events/mapbox.png
-
+image: 
+    - /img_events/mapbox.png
+url_logo:
+    - http://mapbox.com/
 ---
-
 Aprenda a diseñar mapas en Tilemill de 5pm-7pm
 
 Fundamentos teóricos e Instalación de Tilemill
@@ -47,3 +47,9 @@ Tendrá un tiempo de 2 hora para desarrollar sus propios mapas personalizados  c
 Tilemill, en el cual sera asesorado  por Ian ward y Ruben Lopez, quienes podrán aclara
 sus dudas en la preparación de datos geográficos para el uso en Tilemill y
 en el  Diseño de mapas en Tilemill.
+
+*Lugar: Escuelab*  <br>
+Dirección: Calle Belén 1042 - Piso 5 - Lima 1 - Perú <br>
+Referencia: Media cuadra de la Plaza San Martín
+
+**Ingreso Libre**

@@ -1,24 +1,27 @@
 ---
 layout: event
 title: Open Data Meetup Lima
-url1 : http://escuelab.org/
-image1: /img_events/logo-escuelab.png
-url2: http://softwinperu.com/
-image2: /img_events/logo-softwinperu.png
-url3: http://socialmedia.com.pe/
-image3: /img_events/logo-socialmediagroup.png
-url4: http://developmentseed.org/
-image4: /img_events/logo-developmentseed .png
+image:
+    - /img_events/logo-escuelab.png
+    - /img_events/logo-softwinperu.png
+    - /img_events/logo-socialmediagroup.png
+    - /img_events/logo-developmentseed .png
+url_logo:
+- http://escuelab.org/
+- http://softwinperu.com/
+- http://socialmedia.com.pe/
+- http://developmentseed.org/
 ---
 Un día en el que se compartiran Ideas, Actividades y Talleres relacionados a Los Datos Abiertos en el Perú. Con enfoque hacia el Gobierno Abierto, Mapas y Aplicaciones Web. En la mañana se tendrán Charlas y un Espacio Abierto (Open Space); mientras que en la tarde, la meta será solucionar los Retos con talleres de mapeo aerial, recolección, mejora de datos y diseño de mapas.  
 **Charlas**  
 
-- Del e-Gobierno al Gobierno Abierto: Oportunidades y Retos. **(Juan Camilo)**
-- Buenas Aplicaciones y Programas en el Mundo con Datos Abiertos / Publicos. **(Edgar Marca)**
-- Monitorio medioambiental-activista con hardware y software libre. **(Jeff Warren)**
-- OpenStreetMap Peru. **(Johnattan Rupire y Omar Vega)**
-- Creando Mapas Hermosos con TileMill.**(Ian Ward)**
-- Datea.pe y Participación Ciudadania.**(Rodrigo Derteano)**  
+- Del e-Gobierno al Gobierno Abierto: Oportunidades y Retos. (Juan Camilo)
+- Buenas Aplicaciones y Programas en el Mundo con Datos Abiertos / Publicos. (Edgar Marca)
+- Monitorio medioambiental-activista con hardware y software libre. (Jeff Warren)
+- OpenStreetMap Peru. (Johnattan Rupire y Omar Vega)
+- Creando Mapas Hermosos con TileMill.(Ian Ward)
+- Datea.pe y Participación Ciudadania.(Rodrigo Derteano) 
 
 Actividades y talleres de mapeo aerial, desarrollo de mapas para el web, y collección de datos para OSM en la tarde.
 
+**Ingreso: Libre**
