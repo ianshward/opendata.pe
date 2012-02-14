@@ -5,7 +5,9 @@ image:
 - /img_events/geomeetup_lima 2.jpg
 url_logo:
 ---
-Comparta ideas y aprende sobre temas de geografia electronica y datos abiertos durante una tarde de presentaciones rapidos de diez minutos cada presentacion.  Despues de las presentaciones rapidos haremos un Open Space donde todos podemos compartir y discutir ideas. 
+Comparta ideas y aprende sobre temas de geografia electronica y datos abiertos durante una tarde de presentaciones rapidos de diez minutos cada presentacion.  Despues de las presentaciones rapidos haremos un Open Space donde todos podemos compartir y discutir ideas.
+
+**Inscribete!** http://ds.io/ygsFSM
 
 *Presentaciones rapidas*
 
