@@ -1,16 +1,8 @@
 ---
 layout: event
 title: Open Data Meetup Lima
-image:
-    - /img_events/logo-escuelab.png
-    - /img_events/logo-softwinperu.png
-    - /img_events/logo-socialmediagroup.png
-    - /img_events/logo-developmentseed.png
-url_logo:
-    - http://escuelab.org/
-    - http://softwinperu.com/
-    - http://socialmedia.com.pe/
-    - http://developmentseed.org/
+url_tag: /events/2011/08/23/august-meetup/
+
 ---
 Un día en el que se compartiran Ideas, Actividades y Talleres relacionados a Los Datos Abiertos en el Perú. Con enfoque hacia el Gobierno Abierto, Mapas y Aplicaciones Web. En la mañana se tendrán Charlas y un Espacio Abierto (Open Space); mientras que en la tarde, la meta será solucionar los Retos con talleres de mapeo aerial, recolección, mejora de datos y diseño de mapas.  
 

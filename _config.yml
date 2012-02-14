@@ -1,10 +1,11 @@
 auto: true
 server: true
 exclude: README.md, .gitignore
-permalink: none
+permalink: pretty
 baseurl: 
 url: http://opendata.pe
 hashtag: '#opendatape'
+extensions: [smart]
 github_login: 'developmentseed'
 github_repo: 'bones'
 github_language: 'JavaScript'

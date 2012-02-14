@@ -1,14 +1,12 @@
 ---
 layout: event
 title: Entrenamiento en Tilemill
-image: 
-    - /img_events/mapbox.png
-url_logo:
-    - http://mapbox.com/
+url_tag: /events/2012/02/22/february-meetup/
+
 ---
 Aprenda a diseñar mapas hermosas y poderosas en Tilemill por uso en el Internet.  [TileMill](http://mapbox.com/tilemill) es una herramienta de software libre para el Desktop (Windows/Mac/Ubuntu) para el diseño de mapas geograficas para uso en el Internet.  TileMill es una herramienta multidisciplinario, de interes a estudiantes, profesores, profesionales en el sector publico y privado, periodistas, investigadores, y mas.  Es facil aprender hacer mapas muy completos y poderosos.
 
-**Inscribete!** [Instribete aqui](http://ds.io/ygsFSM)
+**Inscribete!** [Inscríbete aquí](http://ds.io/ygsFSM)
 
 *Cuando: Feb 22, 5pm a 11pm*
 

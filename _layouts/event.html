@@ -1,4 +1,9 @@
 ---
 layout: default
 ---
-{{page.title}}
+
+ 
+{% assign base = site.baseurl %}
+<div class="title_text_header">{{page.title}}</div>
+
+<div class='events prose'>{{ content }} </div>

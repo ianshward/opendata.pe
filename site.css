@@ -262,3 +262,10 @@ margin-left: 5px;
 float: left;
 margin-left: 0px;
 }
+
+
+#content .title_text_header{
+    font-size: 20px;
+margin-bottom: 10px;
+ font-family: 'Jockey One','Helvetica Neue',Helvetica,Arial,sans-serif;
+}

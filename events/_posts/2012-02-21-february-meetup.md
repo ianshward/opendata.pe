@@ -4,10 +4,13 @@ title: Geo Meetup Lima
 image:
 - /img_events/geomeetup_lima 2.jpg
 url_logo:
+
+url_tag: /events/2012/02/21/february-meetup/
+
 ---
 Comparta ideas y aprende sobre temas de geografia electronica y datos abiertos durante una tarde de presentaciones rapidos de diez minutos cada presentacion.  Despues de las presentaciones rapidos haremos un Open Space donde todos podemos compartir y discutir ideas.
 
-**Inscribete!** [Inscribete aqui](http://ds.io/ygsFSM)
+**Inscribete!** [Inscríbete aquí](http://ds.io/ygsFSM)
 
 *Presentaciones rapidas*
 

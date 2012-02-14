@@ -1,4 +1,5 @@
-<h2>{{item.title}}</h2>
+
+<h2><a href="{{base}}{{item.url_tag}}">{{item.title}}</a></h2>
 
 <small class='date'>
 {{item.date | date:"%d %b  %Y"}}
@@ -6,8 +7,7 @@
 {{item.content}}
 
 <div class="events_logo">
-
- <!--{% for logos in item.image %}
+<!--{% for logos in item.image %}
 <img src="{{logos}}">
 {% endfor %}-->
 </div>
