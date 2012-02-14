@@ -13,7 +13,7 @@ url_logo:
 - http://developmentseed.org/
 ---
 Un día en el que se compartiran Ideas, Actividades y Talleres relacionados a Los Datos Abiertos en el Perú. Con enfoque hacia el Gobierno Abierto, Mapas y Aplicaciones Web. En la mañana se tendrán Charlas y un Espacio Abierto (Open Space); mientras que en la tarde, la meta será solucionar los Retos con talleres de mapeo aerial, recolección, mejora de datos y diseño de mapas.  
-**Charlas**  
+*Charlas*
 
 - Del e-Gobierno al Gobierno Abierto: Oportunidades y Retos. (Juan Camilo)
 - Buenas Aplicaciones y Programas en el Mundo con Datos Abiertos / Publicos. (Edgar Marca)
