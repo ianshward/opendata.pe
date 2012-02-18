@@ -38,7 +38,7 @@ En esta sección se mencionaran las principales fuentes de obtención de datos g
 * Archivos .DWG(archivos autocad).
 * Fuente [OSM](http://www.openstreetmap.org/).
 * Carga de datos OSM a base de datos Postgis.
-* Unión de datos geográficos y datos que usted crea conveniente mostrar geográficamente.
+* Unión de datos geográficos y datos que usted crea conveniente mostrar geográficamente(Ultimo CENSO nacional poblacional del Perú).
 
 *Taller de diseño de su propios Mapas con Tilemill - 9pm a 11pm*
 
