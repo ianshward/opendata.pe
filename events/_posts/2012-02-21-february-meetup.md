@@ -16,10 +16,10 @@ Comparta ideas y aprende sobre temas de geografia electronica y datos abiertos d
 
 - Scraping para Datos - Edgar Marca<br>
 - Retrospectivo sobre DAL / Water Hackathon - Juan Camilo<br>
-- La Cuidadora, georeferenciación colaborativa de conflictos socioambientales - Johnattan Rupire
 - Datos Abiertos en la Municipalidad de Huamanga - Ruben Lopez<br>
+- OSMPe OpenStreetMap Peru - Omar Vega y Miguel Vera<br>
+- La Cuidadora, georeferenciación colaborativa de conflictos socioambientales - Johnattan Rupire
 - Advances con TileMill y OpenStreetMap - Ian Ward<br>
-- OSM Peru - Omar Vega y Miguel Vera<br>
 - Open Space - Todos!<br>
 
 *Cuando: Feb 21 2012, 7pm*
